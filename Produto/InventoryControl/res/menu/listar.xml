@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.ufg.inf.inventorycontrol.ListarActivity" >
+
+    
+    
+    <item 
+        android:id="@+id/add"
+        android:icon="@drawable/ic_action_add_to_queue"
+        android:title="@string/addProduto"
+        android:showAsAction="always"
+        />
+    
+    <item 
+        android:id="@+id/search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/searchProduto"
+        android:showAsAction="always"
+        />
+    
+
+</menu>

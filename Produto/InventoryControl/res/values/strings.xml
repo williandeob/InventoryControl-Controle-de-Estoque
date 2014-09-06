@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InventoryControl</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- activity cadastro -->
+    <string name="cadastroDeProduto">CADASTRO DE PRODUTO</string>
+    <string name="nome">NOME DO PRODUTO</string>
+    <string name="fabricante">FABRICANTE(Marca)</string>
+    <string name="unidadeDeMedida">UNIDADE DE MEDIDA</string>
+    <string name="quantidade">QUANTIDADE</string>
+    <string name="incluir">INCLUIR</string>
+
+    <!-- activity menu listar -->
+    <string name="addProduto">Add Produto</string>
+    <string name="searchProduto">Search Produto</string>
+    <string name="produto">Produtos</string>
+    <string name="title_activity_consulta">ConsultaActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- activity consulta detalhada -->
+    <string name="consultaDetalhada">CONSULTA DETALHADA</string>
+    <string name="remover">REMOVER</string>
+    <string name="title_activity_editar">EditarActivity</string>
+ 
+     <!-- activity editar -->
+     <string name="alterar">ALTERAR</string>
+     <string name="editarProduto">EDITAR PRODUTO</string>
+      
+</resources>

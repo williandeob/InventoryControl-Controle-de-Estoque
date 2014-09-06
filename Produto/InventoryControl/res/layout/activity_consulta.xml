@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0f0"
+    android:padding="15dp"
+    tools:context="br.ufg.inf.inventorycontrolActivity.ConsultaActivity"
+    tools:ignore="MergeRootFrame"
+    > 
+  
+    
+    <LinearLayout 
+        android:id="@+id/lLConsultaDetalhada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        
+        
+        <TextView 
+         android:id="@+id/tvConsultaDetalhada"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/consultaDetalhada"
+         android:layout_marginLeft="50dp"
+         android:layout_marginBottom="30dp"   
+            />
+        
+        
+        
+        <TextView 
+         android:id="@+id/tvConsultaDetalhadaNomeProduto"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/nome"   
+            />
+        
+        <TextView 
+         android:id="@+id/tvConsultaDetalhadaNomeProdutoSelecionado"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="" 
+         android:layout_marginBottom="15dp" 
+            />
+        
+        <TextView 
+         android:id="@+id/tvConsultaDetalhadaFabricante"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/fabricante"   
+            />
+        
+        <TextView 
+         android:id="@+id/tvConsultaDetalhadaFabricanteProdutoSelecionado"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="" 
+         android:layout_marginBottom="15dp" 
+            />
+        
+        <TextView 
+         android:id="@+id/tvConsultaDetalhadaUnidadeDeMedida"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/unidadeDeMedida"   
+            />
+        
+         <TextView 
+         android:id="@+id/tvConsultaDetalhadaUnidadeDeMedidaSelecionado"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="" 
+         android:layout_marginBottom="15dp" 
+            />
+        
+        <TextView 
+         android:id="@+id/tvConsultaDetalhadaQuantidade"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/quantidade"   
+            />
+        
+         <TextView 
+         android:id="@+id/tvConsultaDetalhadaQuantidadeProdutoSelecionado"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="" 
+         android:layout_marginBottom="15dp" 
+            />
+        
+        <Button
+            android:id="@+id/btRemover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="removerProduto"
+            android:text="@string/remover" />
+        
+    </LinearLayout>
+    
+    
+    </ScrollView>
+
